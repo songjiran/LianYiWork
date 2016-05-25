@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         tvPb = (TextView) findViewById(R.id.tv_pb);
         tvPb.setText("bbb");
         tvPb.setText("不不不");
+        tvPb.setText("啊啊");
         new Thread(new Runnable() {
             @Override
             public void run() {
