@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         tvPb.setText("不不不");
         tvPb.setText("啊啊");
         tvPb.setText("啊啊");
+        tvPb.setText("嘿嘿");
         new Thread(new Runnable() {
             @Override
             public void run() {
