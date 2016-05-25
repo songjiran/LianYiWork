@@ -52,7 +52,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         pb = (ProgressBar) findViewById(R.id.pb);
         tvPb = (TextView) findViewById(R.id.tv_pb);
-        tvPb.setText("aaa");
+        tvPb.setText("bbb");
+        tvPb.setText("不不不");
         new Thread(new Runnable() {
             @Override
             public void run() {
